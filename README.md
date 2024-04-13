@@ -1,5 +1,7 @@
 # Problema de negócio
 
+Dataset Airline Loaylty Campaign: [Airline Loaylty Campaign](https://www.kaggle.com/datasets/agungpambudi/airline-loyalty-campaign-program-impact-on-flights)
+
 Uma companhia área gostaria de realizar um campanha de marketing para aumentar o número de passageiros que participam do programa de fidelidade da empresa.
 
 O programa de fidelidade da empresa oferece 3 tipos de benefícios, de acordo com o uso e o engajamento do passageiro com a empresa, ao longo do tempo. Esses níveis de prêmios são representados pelos tipos de cartões de fidelidade.
