@@ -1,6 +1,7 @@
-# Problema de negócio
-
+# Projeto: Airline Loyalty Campaign
 Dataset Airline Loaylty Campaign: [Airline Loaylty Campaign](https://www.kaggle.com/datasets/agungpambudi/airline-loyalty-campaign-program-impact-on-flights)
+
+## 1. Problema de negócio
 
 Uma companhia área gostaria de realizar um campanha de marketing para aumentar o número de passageiros que participam do programa de fidelidade da empresa.
 
@@ -21,11 +22,11 @@ Por exemplo:
 
 Como essa informação em mãos, o vendedor pode oferecer para o cliente A, o cartão Star, diretamente.
 
-# Premissas do negócio
+## 2. Premissas do negócio
 
 1. Análise foi realizada com dados entre os anos de 2017 e 2018
 
-# Estratégia da solução
+## 3. Estratégia da solução
 
 Um painel estratégico com visualização de todos os clientes com potencial para aquisição do cartão Star.
 
@@ -33,20 +34,26 @@ Abaixo segue um modelo do painel:
 
 ![Imagem da Aplicação](https://docs.google.com/drawings/d/e/2PACX-1vR2amL0k041GIlv8OYdRQzXVDpJ3i8VQjc9P9ePCh_qRnDPOigM4DN851J0hifDn8IZfGHlhMfB5FgT/pub?w=960&h=720)
 
-# Insights
+## 4. Insights
 
 1. Distancia média percorrida foi de 1.208km
 
-# O produto final
+## 5. O produto final
 
 Painel online hospedado em Cloud e disponível para acesso em qualquer dispositivo conectado a internet.
 
 O painel pode ser acessado através do link:
 [Projeto01 - Previsão de Clientes](https://huggingface.co/spaces/garritanoo/projeto01_previsao_clientes)
 
-# Conclusão
+## 6. Conclusão
 
 O objetivo desse projeto foi criar um dashboard que exiba os atributos e e que indique a maior probabilidade de um cliente adquirir um dos 3 cartões: Star, Aurora ou Nova.
+
+## 7. Próximos passos
+
+1. Melhorar o treinamento do modelo de machine learning
+2. Criação de abas para uma melhor navegação:
+3. Incluir mais insights
 
 # Próximos passos
 
