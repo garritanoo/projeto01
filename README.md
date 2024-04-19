@@ -25,18 +25,59 @@ Como essa informação em mãos, o vendedor pode oferecer para o cliente A, o ca
 
 ## 3. Descrição dos dados
 
+### Dados originais
+### 3.1 Referente a `Customer Flight Activity.csv`
+
 | Field |	Description |
 | :---- | :---------- |
 | Loyalty Number | Número de identificação única do cliente |
 | Year |	Ano |
-Month |	Mês |
-Flights Booked |	Número de vos reservados |
-Flights with Companions | 	Número de vôos reservados com acompanhante |
-Total Flights | 	Quantidade de vôos reservados e vôos com acompanhante |
-Distance | 	Distância percorrida (km) |
-Points Accumulated | 	Pontos de fidelidade acumulado |
-Points Redeemed |	Pontos de fidelidade resgatados |
+| Month |	Mês |
+| Flights Booked |	Número de vos reservados |
+| Flights with Companions | 	Número de vôos reservados com acompanhante |
+| Total Flights | 	Quantidade de vôos reservados e vôos com acompanhante |
+| Distance | 	Distância percorrida (km) |
+| Points Accumulated | 	Pontos de fidelidade acumulado |
+| Points Redeemed |	Pontos de fidelidade resgatados |
 | Dollar Cost Points Redeemed |	Valor em dólar dos pontos resgatados |
+
+### 3.2 Referente a `Customer Loyalty History.csv`
+
+| Field |	Description |
+| :---- | :---------- |
+| Loyalty Number | Número de identificação única do cliente |
+| Country |	País que reside |
+| Province |	Região que reside |
+| City	| Cidade que reside |
+| Postal Code |	Código postal  |
+| Gender |	Sexo |
+| Education	Highest | Nível de escolaridade (High school or lower > College > Bachelor > Master > Doctor) |
+| Salary | Annual income |
+| Marital Status |	Status matrimonial: Single (Solteiro), Married (Casado), Divorced (Divorciado) |
+| Loyalty Card |	Status do Cartão de Fidelidade:  Star,  Nova ou  Aurora |
+| CLV	(Customer Lifetime Value) | Valor total da fatura de todos os voos já reservados pelo associado |
+| Enrollment Type	Enrollment type (Standard / 2018 Promotion) |
+| Enrollment Year	Year Member enrolled in membership program |
+| Enrollment Month	Month Member enrolled in membership program |
+| Cancellation Year	Year Member cancelled their membership |
+| Cancellation Month |	Month Member cancelled their membership |
+
+###  Dados derivados
+### 3.3 Junção das 2 tabelas anteriores e um único dataset
+
+Como os dados estava em duas tabelas, foi necessário fazer a união das colunas que fossem pertinentes para a construção do painel, originando um dataset de propensão de compra com os atributos do clientes e as propensão de compra do cliente com o percentual de compra de cada cartão.
+
+| Atributos | Descrição |
+| :-------- | :-------- |
+| Year | Ano |
+| Month | Mês |
+| Flights Booked | Vôos reservados |
+| Flights With Companions | Vôos com acompanhantes |
+| Total Flights | Total de vôos |
+| Distance | Distância |
+| Points Accumulated | Pontos acumulados |
+| Salary | Salário |
+| CLV  (Customer Lifetime Value) | Valor total da fatura de todos os voos já reservados pelo associado |
 
 
 ## 4. Estratégia da solução
