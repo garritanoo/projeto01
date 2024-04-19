@@ -13,9 +13,6 @@ O time de marketing forneceu uma base de novos clientes para o time comercial en
 
 Para alcançar a meta o time comercial precisa entrar em contato com o cliente, sabendo qual a probabilidade dele assinar o cartão Star, Nova ou Aurora. Assim, o vendedor consegue oferecer o cartão de maior probabilidade, diminuindo o tempo da venda e aumentando a receita, através da oferta do cartão mais adequado para o perfil de uso de cada cliente.
 
-Você foi contratado como Cientista de Dados para determinar qual a
-probabilidade de cada cliente assinar cada um dos 3 cartões do programa de fidelidade. 
-
 Por exemplo:
 
 > **O cliente A tem  probabilidade de 70% de assinar o cartão Star, 20% de assinar o cartão Nova e 10% de assinar o cartão Aurora.**
@@ -26,7 +23,23 @@ Como essa informação em mãos, o vendedor pode oferecer para o cliente A, o ca
 
 1. Análise foi realizada com dados entre os anos de 2017 e 2018
 
-## 3. Estratégia da solução
+## 3. Descrição dos dados
+
+| Field |	Description |
+| :---- | :---------- |
+| Loyalty Number | Número de identificação única do cliente |
+| Year |	Ano |
+Month |	Mês |
+Flights Booked |	Número de vos reservados |
+Flights with Companions | 	Número de vôos reservados com acompanhante |
+Total Flights | 	Quantidade de vôos reservados e vôos com acompanhante |
+Distance | 	Distância percorrida (km) |
+Points Accumulated | 	Pontos de fidelidade acumulado |
+Points Redeemed |	Pontos de fidelidade resgatados |
+| Dollar Cost Points Redeemed |	Valor em dólar dos pontos resgatados |
+
+
+## 4. Estratégia da solução
 
 Um painel estratégico com visualização de todos os clientes com potencial para aquisição do cartão Star.
 
@@ -34,22 +47,22 @@ Abaixo segue um modelo do painel:
 
 ![Imagem da Aplicação](https://docs.google.com/drawings/d/e/2PACX-1vR2amL0k041GIlv8OYdRQzXVDpJ3i8VQjc9P9ePCh_qRnDPOigM4DN851J0hifDn8IZfGHlhMfB5FgT/pub?w=960&h=720)
 
-## 4. Insights
+## 5. Insights
 
 1. Distancia média percorrida foi de 1.208km
 
-## 5. O produto final
+## 6. O produto final
 
 Painel online hospedado em Cloud e disponível para acesso em qualquer dispositivo conectado a internet.
 
 O painel pode ser acessado através do link:
 [Projeto01 - Previsão de Clientes](https://huggingface.co/spaces/garritanoo/projeto01_previsao_clientes)
 
-## 6. Conclusão
+## 7. Conclusão
 
-O objetivo desse projeto foi criar um dashboard que exiba os atributos e e que indique a maior probabilidade de um cliente adquirir um dos 3 cartões: Star, Aurora ou Nova.
+O objetivo desse projeto foi eterminar qual a probabilidade de cada cliente assinar cada um dos 3 cartões do programa de fidelidade. 
 
-## 7. Próximos passos
+## 8. Próximos passos
 
 1. Melhorar o treinamento do modelo de machine learning
 2. Criação de abas para uma melhor navegação:
